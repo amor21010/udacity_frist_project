@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">starter</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_in">SignIn</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome ..</string>
+    <string name="next">Next</string>
+    <string name="welcome_paragraph">   welcome to our shoes store it\'s a pleasure to serve your needs</string>
+    <string name="instructions">1-read privacy policy \n 2- add your shoes to the list \n 3- add view the list</string>
+    <string name="here_are_our_instructions">Here are our Instructions ..</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="size">Size</string>
+    <string name="add">Add</string>
+    <string name="cancel">cancel</string>
+    <string name="description">Description</string>
+    <string name="logout">"Logout "</string>
+</resources>
