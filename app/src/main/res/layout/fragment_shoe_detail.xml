@@ -4,8 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="shoe"
+            type="com.omaraboesmail.starter.models.Shoe"/>
     </data>
+    <!-- we need Constraints to provide organized layout ,using bias to the linearlayout and chain the buttons  -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -35,6 +38,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.90999997" />
+        <!-- we need LinearLayout to provide simple aligned layout with root constrained with bias  -->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,6 +59,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@={shoe.name}"
                     android:hint="@string/name"
                     android:textColorHint="#546E7A" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -67,6 +72,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@={shoe.company}"
                     android:hint="@string/company"
                     android:textColorHint="#546E7A" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -80,6 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/size"
+                    android:text="@{Double.toString(shoe.size)}"
                     android:inputType="numberDecimal"
                     android:textColorHint="#546E7A" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -93,6 +100,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@={shoe.description}"
                     android:hint="@string/description"
                     android:textColorHint="#546E7A" />
             </com.google.android.material.textfield.TextInputLayout>

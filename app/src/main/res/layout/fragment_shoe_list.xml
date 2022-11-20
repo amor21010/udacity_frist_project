@@ -8,7 +8,9 @@
     name="shoeListViewModel"
     type="com.omaraboesmail.starter.ShoeListViewModel" />
     </data>
-<androidx.constraintlayout.widget.ConstraintLayout
+    <!-- we need Constraints to provide an overlay to the floating action button on the scrollview  -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 

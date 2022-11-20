@@ -6,6 +6,7 @@
     <data>
 
     </data>
+    <!-- we need Constraints to provide a bias of the view to the center of the screen  -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
